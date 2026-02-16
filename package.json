@@ -1,0 +1,13 @@
+{
+  "name": "workflow-builder-cli",
+  "version": "1.0.0",
+  "description": "Terminal-based Visual DAG Builder for Multi-Agent Pipelines",
+  "type": "module",
+  "bin": {
+    "wf": "./src/index.js"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "inquirer": "^9.2.0"
+  }
+}
